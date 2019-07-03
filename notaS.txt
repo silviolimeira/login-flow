@@ -27,7 +27,7 @@ Build:
 ========================
 set ANDROID_SDK_ROOT=D:\Users\silvio.limeira\AppData\Local\Android\Sdk
 set ANDROID_HOME=D:\Users\silvio.limeira\AppData\Local\Android\Sdk
-set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_181\bin
+set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_181\
 
 export ANDROID_SDK_ROOT=/d/Users/silvio.limeira/AppData/Local/Android/Sdk
 export ANDROID_HOME=/d/Users/silvio.limeira/AppData/Local/Android/Sdk
@@ -45,7 +45,7 @@ $ npm i -g native-run
 
 $ ionic cordova build android --prod --release
 or
-$ ionic cordova run android --prod --release
+$ ionic cordova run android --device --prod --release
 ========================
 
 nginx for Windows
