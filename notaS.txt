@@ -20,6 +20,11 @@ $ ng generate module members/member-routing --flat
 
 
 
+Support for android or IOS:
+$ ionic cordova platform add android --save
+$ ionic cordova platform add ios --save
+
+$ ionic cordova run android --prod --release
 
 
 Build:
