@@ -1,6 +1,9 @@
 
 Building a Basic Ionic 4 Login Flow with Angular Router
 
+Although we don't have any real Server attached, the login and flow is nearly the
+same so you could use this as a base for you own authentication class.
+
 $ ionic start login-flow blank
 $ ls -halt
 $ cd login-flow
