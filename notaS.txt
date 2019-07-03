@@ -10,6 +10,8 @@ $ ls -halt
 $ cd login-flow
 
 $ npm install --save @ionic/storage
+$ npm i -g native-run
+
 $ ionic g page public/login
 $ ionic g page public/register
 $ ionic g page members/dashboard
@@ -19,12 +21,6 @@ $ ng generate module members/member-routing --flat
 
 
 
-
-Support for android or IOS:
-$ ionic cordova platform add android --save
-$ ionic cordova platform add ios --save
-
-$ ionic cordova run android --prod --release
 
 
 Build:
@@ -44,6 +40,8 @@ echo $JAVA_HOME
 Add support for android or IOS:
 $ ionic cordova platform add android --save
 $ ionic cordova platform add ios --save
+
+$ npm i -g native-run
 
 $ ionic cordova build android --prod --release
 or

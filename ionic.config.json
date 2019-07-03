@@ -1,5 +1,7 @@
 {
   "name": "login-flow",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
