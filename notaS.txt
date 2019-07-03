@@ -47,3 +47,16 @@ $ ionic cordova build android --prod --release
 or
 $ ionic cordova run android --prod --release
 ========================
+
+nginx for Windows
+https://alligator.io/ionic/pwas/
+
+$ npm install @angular/pwa
+$ ionic build --prod
+
+cd c:\
+unzip nginx-1.17.1.zip
+cd nginx-1.17.1
+copy everything www to nginx-1.16.0/html folder generated in build
+start nginx
+
