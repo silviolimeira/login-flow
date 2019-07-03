@@ -1,5 +1,6 @@
 
 Building a Basic Ionic 4 Login Flow with Angular Router
+https://devdactic.com/ionic-4-login-angular/
 
 Although we don't have any real Server attached, the login and flow is nearly the
 same so you could use this as a base for you own authentication class.
